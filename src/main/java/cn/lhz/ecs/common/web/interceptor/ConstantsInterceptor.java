@@ -40,6 +40,6 @@ public class ConstantsInterceptor implements HandlerInterceptor
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler,
                                 @Nullable Exception ex) throws Exception
     {
-        throw new UnsupportedOperationException("Method not implemented.");
+
     }
 }
